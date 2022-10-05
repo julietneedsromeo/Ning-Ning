@@ -1,0 +1,9 @@
+send "Please enter the first number " to display
+recieve FIRSTNUMBER from keyboard
+send "Please enter the second number" to display
+recieve SECONDNUMBER from keyboard
+send "Please enter the third number " to display 
+recieve THIRDNUMBER from keyboard
+set TOLL to FIRSTNUMBER+SECONDNUMBER+THIEDNUMBER
+set AVG to TOLL/3
+send AVG to display
